@@ -4,3 +4,7 @@ node_modules
 */.DS_Store
 */*/.DS_Store
 *.sh
+.idea
+.jekyll-cache
+*.iml
+package-lock.json

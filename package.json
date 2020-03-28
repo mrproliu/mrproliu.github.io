@@ -18,5 +18,8 @@
     "scripts": {
         "preview": "cd _site; python -m SimpleHTTPServer 8020",
         "watch": "grunt watch & npm run preview & jekyll serve -w;"
+    },
+    "dependencies": {
+        "jekyll": "^3.0.0-beta1"
     }
 }
