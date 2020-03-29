@@ -111,6 +111,10 @@ layout: default
                 <!-- disqus 评论框 end -->
                 {% endif %}
 
+                {% if site.valine_id %}
+                <div class="comment"> <div id="valine_thread" > </div> </div>
+                 {% endif %}
+
             </div>
 
     <!-- Sidebar Container -->
@@ -224,4 +228,18 @@ layout: default
         }
     }
 </style>
+{% endif %}
+
+{% if site.valine_id %}
+<script type="text/javascript">
+(function() {
+async("//unpkg.com/valine/dist/Valine.min.js",function(){
+    new Valine({
+        el: '#valine_thread',
+        appId: '{{site.valine_id}}',
+        appKey: '{{site.valine_key}}'
+    })
+})
+})();
+</script>
 {% endif %}

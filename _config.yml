@@ -45,6 +45,8 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 
+valine_id: YbUUJ2T6KXfDJG3xXE2JFyQo-gzGzoHsz
+valine_key: FzD44hXi1BCUltRYJcEdQv5O
 
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
@@ -59,7 +61,7 @@ kramdown:
 
 # Analytics settings
 # Baidu Analytics
-#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: 55ffe1a0ff201bc14dc488753fa6d368
 # Google Analytics
 #ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 #ga_domain: huangxuan.me
