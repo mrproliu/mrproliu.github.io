@@ -2,6 +2,8 @@
 layout:     post
 title:      "初识ShardingSphere"
 subtitle:   "尝试目前最流行的数据库中间件之一"
+keyword:    "ShardingSphere,数据库,中间件"
+description:    "ShardingSphere是目前最流行的数据库中间件之一，本文主要以首次尝试ShardingSphere为主"
 date:       2020-03-29 12:00:00
 author:     "Mrproliu"
 header-img: "img/post-bg-2015.jpg"
